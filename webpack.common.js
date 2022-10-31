@@ -95,6 +95,7 @@ module.exports = function (env, argv) {
           exclude: (() => {
             // these packages must be included to change according to browserslist
             const include = ["web-ui-pack", "ytech-js-extensions"];
+
             return (v) => v.includes("node_modules") && !include.some((lib) => v.includes(lib));
           })(),
           use: [
@@ -178,6 +179,7 @@ module.exports = function (env, argv) {
                     ? (() => {
                         // it simplifies classNames fo debug purpose
                         const getHash = MinifyCssNames();
+
                         return (context, localIdentName, localName, options) =>
                           `${localName}_${getHash(context, localIdentName, localName, options)}`;
                       })()

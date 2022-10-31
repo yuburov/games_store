@@ -69,7 +69,11 @@ function RegistrationForm(): ReturnType<React.FC> {
                   <button type="submit" disabled={submitting}>
                     Submit
                   </button>
-                  <button type="button" onClick={form.reset} disabled={submitting || pristine}>
+                  <button
+                    type="button"
+                    onClick={form.reset as React.MouseEventHandler<HTMLButtonElement> | undefined}
+                    disabled={submitting || pristine}
+                  >
                     Reset
                   </button>
                 </div>

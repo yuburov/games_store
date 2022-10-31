@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import "./styles/main.scss";
 
-function AppContainer(props: Parameters<React.FC>[0]): ReturnType<React.FC> {
+function AppContainer(): ReturnType<React.FC> {
   return (
     <StrictMode>
       <Provider store={store}>

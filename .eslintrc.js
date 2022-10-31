@@ -25,6 +25,7 @@ module.exports = {
   rules: {
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/label-has-for": "off",
+    "consistent-return": "off",
     "@typescript-eslint/no-explicit-any": [
       "error",
       {
@@ -34,9 +35,16 @@ module.exports = {
     ],
     "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/no-use-before-define": "error",
-
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/explicit-module-boundary-types": 0,
     "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
     "react/destructuring-assignment": 0,
+    "newline-before-return": "error",
+    "import/no-extraneous-dependencies": 0,
+    curly: "error",
+    "no-param-reassign": 0,
+    "import/prefer-default-export": 0,
+    "no-return-assign": 0,
     // "react/jsx-max-props-per-line": [1, { maximum: 1 }], //it doesn't work with prettier, you can remove prettier from rules: 'prettier/prettier'...
     // "react/jsx-first-prop-new-line": [1, "multiline"], //it doesn't work with prettier, you can remove prettier from rules: 'prettier/prettier'...
     "react/prop-types": 0,
@@ -49,6 +57,7 @@ module.exports = {
 
     "prettier/prettier": ["error"],
 
+    "react/no-array-index-key": 0,
     "no-shadow": "off",
     "no-use-before-define": "off",
     "require-await": "error",

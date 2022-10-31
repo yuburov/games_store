@@ -37,6 +37,7 @@ export default function Navbar(): ReturnType<React.FC> {
     dispatch(deleteUserFromLocalStorage());
     navigate("/home");
   };
+
   return (
     <nav>
       <ul className={style.list}>
