@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from "react";
 import { Form, Field } from "react-final-form";
 import Box from "@mui/material/Box";
@@ -26,10 +27,10 @@ interface IValueEditForm extends IBaseCard {
 }
 
 interface IEditCardForm {
-  id: number;
+  id?: number;
   buttonTitle: string;
   display: string;
-  subscription: FormSubscription;
+  subscription?: FormSubscription;
 }
 export const displayButtonEditCard = "editCard";
 export const displayButtonCreateCard = "createCard";

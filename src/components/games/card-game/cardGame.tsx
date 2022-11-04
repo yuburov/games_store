@@ -24,7 +24,7 @@ function CardGame({
   ageLimit,
   rating,
   platform,
-}: ICard): ReturnType<React.FC> {
+}: ICard): ReturnType<React.FC<ICard>> {
   const dispatch = useDispatch();
   const { addToCart } = cartSlice.actions;
   const { signInAdminInLocalStorage } = adminSlice.actions;
