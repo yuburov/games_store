@@ -4,7 +4,7 @@ import { faPlaystation, faWindows, faXbox } from "@fortawesome/free-brands-svg-i
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useDispatch } from "react-redux";
 import style from "./cardGame.module.scss";
-import btnStyle from "../../../styles/main.module.css";
+import btnStyle from "../../../styles/main.module.scss";
 import { ICard } from "../../../types/Card";
 import cartSlice from "../../../redux/reducers/cartReducer";
 import { useAppSelector } from "../../../hooks/redux";

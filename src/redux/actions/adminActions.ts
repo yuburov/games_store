@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { adminLogin, adminLogout } from "@/services/auth.service";
+import { adminLogin, adminLogout } from "src/services/auth.service";
 
 const AdminActions = {
   WRITE_ADMIN_TO_STORE: "user/writeAdminToStore",

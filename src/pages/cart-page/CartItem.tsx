@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { ICard } from "../../types/Card";
 import style from "./cart.module.scss";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 import { useAppDispatch } from "../../hooks/redux";
 import cartSlice from "../../redux/reducers/cartReducer";
 import { playstation, xbox, pc } from "../../constants/category";

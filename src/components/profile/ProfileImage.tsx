@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactFileReader from "react-file-reader";
 import style from "./profileImage.module.scss";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 import { IUserProfile } from "../../types/UserProfile";
 
 interface IProfileImage extends IUserProfile {}

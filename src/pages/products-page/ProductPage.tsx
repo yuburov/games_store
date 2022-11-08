@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { CircularProgress } from "@mui/material";
 import { Params, useParams } from "react-router";
 import cardStyle from "../../components/games/card-game/cardGame.module.scss";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 import categoryStyle from "../../components/categories/categories.module.scss";
 import FilterForm from "../../components/forms/filter-form/FilterForm";
 import SearchResult from "../../components/search/SearchResult";

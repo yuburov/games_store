@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import ErrorBoundary from "../../components/error-boundary/ErrorBoundary";
 import BuggyButton from "../../components/error-boundary/BuggyButton";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 import style from "./aboutPage.module.scss";
 
 export default function AboutPage(): ReturnType<React.FC> {

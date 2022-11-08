@@ -1,6 +1,6 @@
 import React from "react";
-import Cart from "@/pages/cart-page/Cart";
-import HomePage from "@/pages/home-page/HomePage";
+import Cart from "src/pages/cart-page/Cart";
+import HomePage from "src/pages/home-page/HomePage";
 
 const ProductsPage = React.lazy(() => import("../pages/products-page/ProductPage"));
 const AboutPage = React.lazy(() => import("../pages/about-page/AboutPage"));

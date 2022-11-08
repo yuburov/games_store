@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import classNames from "classnames";
-import style from "../../styles/main.module.css";
+import style from "../../styles/main.module.scss";
 import cartStyle from "./cart.module.scss";
 import titleStyle from "../../components/categories/categories.module.scss";
 import { useAppSelector, useAppDispatch } from "../../hooks/redux";

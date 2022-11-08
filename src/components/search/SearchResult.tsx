@@ -1,10 +1,10 @@
 import React, { Fragment, memo, SetStateAction } from "react";
 import debounce from "lodash.debounce";
+import { ICard } from "src/types/Card";
 import { BASE_URL } from "../../constants/baseUrl";
 import SearchInput from "./SearchInput";
 import CardGame from "../games/card-game/cardGame";
 import style from "../games/card-game/cardGame.module.scss";
-import { ICard } from "@/types/Card";
 
 const fetchSearchResults = async (query: string) => {
   if (query && query.length >= 3) {

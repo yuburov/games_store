@@ -1,4 +1,4 @@
-import style from "../../styles/main.module.css";
+import style from "../../styles/main.module.scss";
 import Categories from "../../components/categories/Categories";
 import SearchResult from "../../components/search/SearchResult";
 import Games from "../../components/games/Games";

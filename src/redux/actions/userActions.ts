@@ -1,4 +1,4 @@
-import { login, logout } from "@/services/auth.service";
+import { login, logout } from "src/services/auth.service";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const UserActions = {

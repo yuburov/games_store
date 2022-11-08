@@ -3,7 +3,7 @@ import axios from "axios";
 import { Form, Field } from "react-final-form";
 import classNames from "classnames";
 import style from "./profileImage.module.scss";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 import styleForm from "../forms/form.module.scss";
 import { BASE_URL } from "../../constants/baseUrl";
 import FormInput from "../common/FormInput";

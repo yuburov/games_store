@@ -1,7 +1,7 @@
 import { AlertTitle, Alert, Button } from "@mui/material";
 import classNames from "classnames";
 import style from "./errorPage.module.scss";
-import mainStyle from "../../styles/main.module.css";
+import mainStyle from "../../styles/main.module.scss";
 
 export default function ErrorPage(): ReturnType<React.FC> {
   const onReloadPage = () => window.location.replace("/home");

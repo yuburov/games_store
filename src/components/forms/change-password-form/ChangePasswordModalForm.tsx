@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 import style from "../../profile/profileImage.module.scss";
-import mainStyle from "../../../styles/main.module.css";
+import mainStyle from "../../../styles/main.module.scss";
 import styleForm from "../form.module.scss";
 import { BASE_URL } from "../../../constants/baseUrl";
 import FormInput from "../../common/FormInput";

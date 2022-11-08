@@ -1,6 +1,6 @@
 import { useState, useEffect, memo } from "react";
 import classNames from "classnames";
-import style from "../../styles/main.module.css";
+import style from "../../styles/main.module.scss";
 import { BASE_URL } from "../../constants/baseUrl";
 import ProfileInfo from "../../components/profile/ProfileInfo";
 import { IUserProfile } from "../../types/UserProfile";
